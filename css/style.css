@@ -124,6 +124,7 @@ main{
 .lower{
     margin: 50px 0;
     height: 600px; 
+    border: 1px solid orange; 
 }
 .columns{
     height: 300px;
@@ -131,9 +132,9 @@ main{
 }
  div.col{
     float: left;
-    width: calc((50%/2) - 40px);
+    width: calc((50%/2) - 20px);
+    border: 1px solid blue;
     
-     
 }
 
 .columns .col:nth-child(2){
