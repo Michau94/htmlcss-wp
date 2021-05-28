@@ -60,7 +60,6 @@ ul li {
     display: inline-block;
     padding: 10px;
     text-transform: uppercase;
-    /* border: 1px dotted black; */
     margin: 0 10px; 
 }
 
@@ -80,7 +79,7 @@ main{
 .banner{
     
     height: 500px;
-    background-image: url(/img/banner.jpg);
+    background-image: url("/img/banner.jpg");
     background-size: cover;
     background-position: center;
     border-radius: 20px;
@@ -117,13 +116,11 @@ main{
 }
 .columns{
     height: 300px;
-    /* border: 1px solid orange; */
     width: 100%;
 }
  div.col{
     float: left;
     width: calc((50%/2) - 40px);
-    /* border: 1px solid red; */
     overflow: hidden; 
      
 }
