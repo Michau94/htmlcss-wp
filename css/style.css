@@ -70,7 +70,14 @@ li > a{
     
 }
 
- 
+ .overlay{
+    background: rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    height: 100%;
+    z-index: 2;
+    border-radius: 20px;
+
+ }
  
     
 /* MAIN BANNER */
@@ -86,14 +93,14 @@ main{
     background-size: cover;
     background-position: center;
     border-radius: 20px;
-    filter: invert(15%);/*da segnare */
+    /* filter: invert(15%);da segnare */
     
 }
 
 .banner-text{
     width: 600px;
     padding:350px 20px;
-    color: black; /*scelta per visibilità visto che l'invert scurisce tutto div */
+    color: white; 
     
 }
 
