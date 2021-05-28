@@ -89,8 +89,9 @@ main{
 
 .banner-text{
     width: 600px;
-     padding:350px 20px;
-     color: white;
+    padding:350px 20px;
+    color: black; /*scelta per visibilità visto che l'invert scurisce tutto div */
+    
 }
 
 .banner-text p{
