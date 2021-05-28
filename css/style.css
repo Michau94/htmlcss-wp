@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family:'Josefin Sans', sans-serif;
 }
 .container{
     max-width: 1200px;
@@ -11,7 +12,7 @@
 
 /* HEADER */
 
-header {
+#main-header {
     height: 150px;
     /* border: 1px solid blue;  */
     margin: 20px 0;
@@ -31,7 +32,7 @@ header {
 /* NAVBAR */
 
 #nav{ 
-    /* border: 1px solid blue;  */
+    border: 1px solid blue; 
     height: 50px; 
     margin: 30px 0; 
 
@@ -48,5 +49,31 @@ li > a{
     text-decoration: none;
     color: #B0B0B0;
     font-size: 25px;
-    font-family:'Josefin Sans', sans-serif; ;
+    
+}
+
+
+/* MAIN BANNER */
+main{
+    margin: 50px 0;
+}
+
+.banner{
+    
+    height: 500px;
+    background-image: url(/img/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    
+}
+
+.banner-text{
+    width: 600px;
+     padding:350px 20px;
+     color: white;
+}
+
+.banner-text p{
+    font-size: 20px;
 }
